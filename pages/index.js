@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Date from '../components/date'
-import Layout, { siteTitle } from "../components/layout";
+import Layout, {siteTitle} from "../components/layout";
 import utilStyles from '../styles/utils.module.css'
 import {getSortedPostsData} from "../lib/posts";
 
-export async function getStaticProps(){
+export async function getStaticProps() {
     const allPostsData = getSortedPostsData();
     return {
         props: {
@@ -15,17 +15,17 @@ export async function getStaticProps(){
 
 }
 
-export default function Home({ allPostsData }){
+export default function Home({allPostsData}) {
     return (
         <Layout home>
             <Head>
-                <title>{ siteTitle }</title>
+                <title>{siteTitle}</title>
             </Head>
             <section className={utilStyles.headingMd}>
-                <p>I am Domirando. Enthusiast which has soo many huge life plans!</p>
+                <p>I am Domirando. Enthusiast which has soo huge life plans!</p>
                 <p>
-                    (This is a simple website - you'll be building a site like this on {' '}
-                    <a href='https://nextjs.org/learn'>our Next.js tutorial</a>)
+                    You can check out all my pet projects on --> {' '}
+                    <a href='https://github.com/Domirando'>Github</a>
                 </p>
             </section>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -36,9 +36,9 @@ export default function Home({ allPostsData }){
                             <Link href={`/posts/${id}`}>
                                 <a>{title}</a>
                             </Link>
-                            <br />
+                            <br/>
                             <small className={utilStyles.lightText}>
-                                <Date dateString={date} />
+                                <Date dateString={date}/>
                             </small>
                         </li>
                     ))}
