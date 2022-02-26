@@ -1,6 +1,6 @@
 ---
 title: 'All about ReactJS.'
-date: '2020-01-02'
+date: '2021-11-27'
 ---
 
 ![Ooops, something went wrong... ](/images/reactjs.png)
