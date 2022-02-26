@@ -1,7 +1,7 @@
 .container {
-  max-width: 36rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  /*max-width: 40rem;*/
+  /*padding: 0 1rem;*/
+  margin: 2rem 20rem 6rem;
 }
 
 .header {
@@ -12,4 +12,11 @@
 
 .backToHome {
   margin: 3rem 0 0;
+}
+.footer{
+  font-size: 16px;
+  padding: 2rem 20rem 4rem;
+  /*margin-bottom: 3rem;*/
+  color: #828282;
+  border-top: 1px solid #e8e8e8
 }
