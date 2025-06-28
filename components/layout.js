@@ -70,7 +70,7 @@ export default function Layout({children, home}) {
                     </div>
                 )}
             </div>
-            <footer className={styles.footer}>A Front-End Developer and Computer Science, Machine Learning enthusiast from Uzbekistan</footer>
+            <footer className={styles.footer}>A Front-End Developer and Computer Science, Machine Learning enthusiast from Uzbekistan 2021 &copy;</footer>
 		</>
 	)
 }

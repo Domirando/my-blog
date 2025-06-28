@@ -24,7 +24,7 @@ export default function Home({allPostsData}) {
             <section className={utilStyles.headingMd}>
                 <p>I am Domirando. Enthusiast which has soo huge life plans!</p>
                 <p>
-                    You can check out all my pet projects on --> {' '}
+                    You can check out all my mini projects on --> {' '}
                     <a href='https://github.com/Domirando'>Github</a>
                 </p>
             </section>
